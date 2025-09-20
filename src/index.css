@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.subtract-width {
+    width: calc(100% - 18rem);
+  }
+
