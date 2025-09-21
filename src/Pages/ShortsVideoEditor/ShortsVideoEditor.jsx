@@ -1,15 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Play, Pause, Type, Volume2, Image as ImageIcon, Wand2, Mic2 } from "lucide-react";
 
-/**
- * ShortsVideoEditor.jsx
- * React + Tailwind component for a "SHORTS VIDEO EDITOR" UI.
- * - Left toolbar with tools (media, text, audio) + AI action buttons
- * - Center phone-style preview with caption overlay
- * - Bottom timeline track with thumbnail and caption block
- *
- * Assumes Tailwind is configured and `lucide-react` is installed.
- */
+
 export default function ShortsVideoEditor() {
   const [caption, setCaption] = useState("How to stay productive while working from home");
   const [isPlaying, setIsPlaying] = useState(false);
