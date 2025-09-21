@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import { Play, Check } from "lucide-react";
 
-/**
- * TextToVideoGenerator.jsx
- * React + Tailwind component for the "Text‑to‑Video Generator" UI.
- *
- * Assumes Tailwind is configured and `lucide-react` is installed.
- *   npm i lucide-react
- */
 const TextToVideoGenerator =()=> {
   const [prompt, setPrompt] = useState("");
   const [opts, setOpts] = useState({

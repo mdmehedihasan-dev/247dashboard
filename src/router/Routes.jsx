@@ -13,12 +13,13 @@ import TextToVideoGenerator from "../Pages/TextToVideoGenerator/TextToVideoGener
 import AutoCaptionHashtags from "../Pages/AutoCaptionHashtags/AutoCaptionHashtags";
 import RealisticVoiceovers from "../Pages/RealisticVoiceovers/RealisticVoiceovers";
 import AutoVideoEditing from "../Pages/AutoVideoEditing/AutoVideoEditing";
+import Signup from "../Pages/Auth/Signup";
 
 export const router = createBrowserRouter([
-  // {
-  //   path: "/sign-in",
-  //   element: <SignIn></SignIn>,
-  // },
+  {
+    path: "/sign-in",
+    element: <Signup/>,
+  },
   // {
   //   path: "/forgate-password",
   //   element: <ForgatePassword/>,
